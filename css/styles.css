@@ -449,6 +449,53 @@ Hero Media Query
   font-weight: 500;
 }
 
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.products {
+  /* position: relative;
+  width: 27rem;
+  margin: 0 auto;
+  margin-bottom: 3rem; */
+  width: 900px;
+  margin: auto;
+  max-width: 90vw;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.productlist{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.productlist .item img {
+  width: 27rem;
+  height: 31rem;
+  object-fit: cover;
+  /* transition: all 500ms linear; */
+}
+
+@media only screen and (max-width: 992px) {
+  .productlist{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .productlist{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
 .product-center {
   display: flex;
   align-items: center;
