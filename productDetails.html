@@ -10,12 +10,12 @@
     />
     <!-- Custom StyleSheet -->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Boy’s T-Shirt - Codevo</title>
+    <!-- <title>Boy’s T-Shirt - Codevo</title> -->
   </head>
 
   <body>
     <!-- Navigation -->
-    <div class="top-nav">
+    <!-- <div class="top-nav">
       <div class="container d-flex">
         <p>Order Online Or Call Us: (001) 2222-55555</p>
         <ul class="d-flex">
@@ -24,10 +24,10 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <div class="navigation">
       <div class="nav-center container d-flex">
-        <a href="index.html" class="logo"><h1>Dans</h1></a>
+        <a href="index.html" class="logo"><img src="./images/Logo.svg" alt="image"></a>
 
         <ul class="nav-list d-flex">
           <li class="nav-item">
@@ -87,17 +87,17 @@
     </div>
 
     <!-- Product Details -->
-    <section class="section product-detail">
-      <div class="details container">
+    <!-- <section class="section product-detail">
+      <div class="container">
         <div class="left image-container">
-          <div class="main">
-            <img src="./images/product-8.jpg" id="zoom" alt="" />
+          <div class="image">
+            <img src="" alt="" />
           </div>
         </div>
         <div class="right">
           <span>Home/T-shirt</span>
-          <h1>Boy’s T-Shirt By Handsome</h1>
-          <div class="price">$50</div>
+          <h1 class="name"></h1>
+          <div class="price"></div>
           <form>
             <div>
               <select>
@@ -117,17 +117,40 @@
             <a href="cart.html" class="addCart">Add To Cart</a>
           </form>
           <h3>Product Detail</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima
-            delectus nulla voluptates nesciunt quidem laudantium, quisquam
-            voluptas facilis dicta in explicabo, laboriosam ipsam suscipit!
-          </p>
+          <p class="details"></p>
         </div>
       </div>
-    </section>
+    </section> -->
+
+   <div class="container">
+    <div class="title">PRODUCT DETAILS</div>
+    <div class="Pdetails">
+      <div class="image">
+        <img src="" alt="">
+      </div>
+      <div class="content">
+        <h2 class="name"></h2>
+        <div class="price"></div>
+        <div class="button">
+          <button>Check Out</button>
+          <button>
+            Add To Cart
+            <span>
+              <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+              </svg>              
+            </span>
+          </button>
+        </div>
+        <div class="details"></div>
+      </div>
+    </div>
+    <div class="title">SIMILAR PRODUCT</div>
+    <div class="productlist"></div>
+   </div>
 
     <!-- Related -->
-    <section class="section featured">
+    <!-- <section class="section featured">
       <div class="top container">
         <h1>Related Products</h1>
         <a href="#" class="view-more">View more</a>
@@ -204,7 +227,50 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
+
+    <script>
+      let products = null;
+      fetch('Productdetails.json')
+      .then(response => response.json())
+      .then(data => {
+        products = data;
+        showDetail();
+      })
+
+      function showDetail(){
+        
+        let detail = document.querySelector('.Pdetails');
+        let productId = new URLSearchParams(window.location.search).get('id');
+        let ThisProduct = products.filter(value => {
+          return value.id == productId
+        })[0];
+
+        if(!ThisProduct){
+          window.location.href = "/";
+        }
+
+        detail.querySelector('.image img').src = ThisProduct.image;
+        detail.querySelector('.name').innertext =  ThisProduct.name;
+        detail.querySelector('.price').innerText =  ThisProduct.price;
+        detail.querySelector('.details').innerText =  ThisProduct.details;
+
+        let productlist = document.querySelector('.productlist');
+        (products.filter(value => value.id != productId))
+        .forEach(product => {
+            let newProduct = document.createElement('a');
+            newProduct.href = '/productDetails.html?id=' + product.id;
+            newProduct.classList.add('item');
+            newProduct.innerHTML = 
+            `<img src="${product.image}">
+            <h3>${product.name}</h3>
+            <div class="price">${product.price}</div>
+            `;
+            productlist.appendChild(newProduct);
+        });
+      }
+    </script>
+
     <!-- Footer -->
     <footer class="footer">
       <div class="row">
