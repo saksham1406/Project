@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "./images/ARTIC FOX MOUSE.jpg",
+        "name": "Arctic Fox Pureview Transparent Wireless",
+        "price": "₹1200",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
+    },
+    {
+        "id": 2,
+        "image": "./images/WirelessChargingPad.jpg",
+        "name": "Archer Tech Lab Quiver 500 Gaming Mousepad",
+        "price": "₹500",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
+    },
+    {
+        "id": 3,
+        "image": "./images/watch1.jpg",
+        "name": "Concepts Solid Pink Men’s Polo",
+        "price": "₹1200",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
+    }
+]
