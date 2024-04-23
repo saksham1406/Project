@@ -16,8 +16,30 @@
     {
         "id": 3,
         "image": "./images/watch1.jpg",
-        "name": "Concepts Solid Pink Men’s Polo",
+        "name": "Watch Men Stainless Steel Sport Analog Quartz Watch Men Luxury Brand ",
         "price": "₹1200",
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
-    }
+    },
+    {
+        "id": 4,
+        "image": "./images/Headphones.png",
+        "name": "Bose Quitecomfort ultra soundproof bluetooth headphones",
+        "price": "₹4000",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
+    },
+    {
+        "id": 5,
+        "image": "./images/laptop.jpg",
+        "name": "Acer One 14 AMD Ryzen 3 3250U Processor",
+        "price": "₹37,599",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
+    },
+    {
+        "id": 6,
+        "image": "./images/airdopes.jpg",
+        "name": "boAt Airdopes 711 True Wireless Earbuds Best Price in India 2023",
+        "price": "₹1799",
+        "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
+    },
+
 ]
