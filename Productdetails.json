@@ -65,9 +65,9 @@
     {
          "id": 10,
         "image": "./images/SmartWatch1.jpg",
-        "name": "Smart Watch New Version Bluetooth Smart Fitness Band Watch with Heart Rate Activity Tracker Waterproof Body, Calorie Counter, Blood Pressure Touchscreen for Men/Women -ID116 Black",
+        "name": "Smart Watch New Version Bluetooth Smart Fitness Band Watch with Heart Rate Activity Tracker Waterproof Body",
         "price": "₹1,499",
-         "details": "Smart watch for Android Phones Samsung iPhone?- Compatible with most iOS 8.0 & Android 4.4 above smartphones. Download and install Free "FitPro" APP, bind this smartwatch in your cell phone, you can receive alerts of calendar, SMS, incoming calls and SNS (Facebook, Twitter, Whatsapp and more) on this watch; It will never let you miss any important events."
+         "details": "Smart watch for Android Phones Samsung iPhone?- Compatible with most iOS 8.0 & Android 4.4 above smartphones."
       },
       {
         "id": 11,
@@ -78,7 +78,7 @@
      },
      {
         "id": 12,
-       "image": "./images/Speaker.jpg",
+       "image": "./images/Speaker1.jpg",
        "name": "Buy Jack Martin JM 3000 170W Bluetooth Home Theatre with Remote",
        "price": "₹10,999",
         "details": "Introducing the Jack Martin JM 3000 170W Bluetooth Home Theatre with Remote, a that fills your room with high-quality audio. It features a single 8-inch subwoofer that delivers 100 watts of power and five 3-inch satellite speakers."
@@ -86,23 +86,23 @@
      {
         "id": 13,
        "image": "./images/Tablet1.jpg",
-       "name": "Samsung Galaxy Tab S6 Lite 26.31 cm (10.4 inch), S-Pen in Box, Slim and Light, Dolby Atmos Sound, 4 GB RAM, 64 GB ROM, Wi-Fi Tablet, Oxford GreySamsung Galaxy Tab S6 Lite 26.31 cm (10.4 inch), S-Pen in Box, Slim and Light, Dolby Atmos Sound, 4 GB RAM, 64 GB ROM, Wi-Fi Tablet, Oxford Grey",
+       "name": "Samsung Galaxy Tab S6 Lite 26.31 cm (10.4 inch), S-Pen in Box, Slim and Light, Dolby Atmos Sound",
        "price": "₹34,999",
-        "details": "Samsung Galaxy Tab S7 FE Camera: 8MP Rear Camera | 5MP Front Camera | Video Recording with UHD 4K (3840 x 2160)@30fps Resolution | Auto Focus",
+        "details": "Samsung Galaxy Tab S7 FE Camera: 8MP Rear Camera | 5MP Front Camera | Video Recording with UHD 4K (3840 x 2160)@30fps Resolution | Auto Focus"
      },
      {
         "id": 14,
        "image": "./images/Drone.jpg",
        "name": "Phantom Drone Camera",
        "price": "₹125,000",
-        "details": " One-click detachable 4K video camera , along with 120° FOV lens and larger COMS sensor will bring you the ultimate aerial photography experience. Especially to record the unforgettable night scenes you see. Besides, equipped with 3-Axis gimbal Plus 5x digital zoom ensure it's shooting more stable and convenient when transitioning between shots of varying distance, direction and composition",
+        "details": " One-click detachable 4K video camera along with 120° FOV lens and larger COMS sensor will bring you the ultimate aerial photography experience. Especially to record the unforgettable night scenes you see. "
      },
      {
         "id": 15,
        "image": "./images/Cable.jpg",
        "name": "boAt Deuce 330",
        "price": "₹299",
-        "details": "Deuce 330 2 in 1 Cable, boAt Deuce USB 330 2-in-1 Type C + Micro USB cable is compatible with most smartphones, tablets, PC peripherals, Bluetooth ",
-     },
+        "details": "Deuce 330 2 in 1 Cable, boAt Deuce USB 330 2-in-1 Type C + Micro USB cable is compatible with most smartphones, tablets, PC peripherals, Bluetooth "
+     }
 
 ]
