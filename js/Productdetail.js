@@ -19,7 +19,7 @@ let products = null;
         }
 
         detail.querySelector('.image img').src = ThisProduct.image;
-        detail.querySelector('.name').innertext =  ThisProduct.name;
+        detail.querySelector('.Pname').innerText =  ThisProduct.name;
         detail.querySelector('.price').innerText =  ThisProduct.price;
         detail.querySelector('.details').innerText =  ThisProduct.details;
 
