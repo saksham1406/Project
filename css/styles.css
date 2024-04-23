@@ -1449,3 +1449,25 @@ th:last-child {
 .login-form form p a {
   color: dodgerblue;
 }
+
+/* ProductDetails-Page */
+
+.title{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.Pdetails{
+  display: flex;
+}
+
+
+.Pdetails .content{
+  margin-left: 10px;
+}
+
+.Pdetails .content .Pname{
+  
+}
