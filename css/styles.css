@@ -488,11 +488,33 @@ Hero Media Query
   .productlist{
     grid-template-columns: repeat(3,1fr);
   }
+  .Pdetails{
+    grid-template-columns: 40% 1fr;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .productlist{
     grid-template-columns: repeat(2,1fr);
+  }
+  .Pdetails{
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-left: 10px;
+  }
+  .Pdetails .image img{
+    width: unset;
+    height: 40vh;
+  }
+  .Pdetails .Pname{
+    font-size: x-large;
+    margin: 0;
+  }
+  .Pdetails .button{
+    justify-content: center;
+  }
+  .Pdetails .button button{
+    font-size: small;
   }
 }
 
@@ -1454,20 +1476,86 @@ th:last-child {
 
 .title{
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 500;
   margin-top: 20px;
 }
 
 .Pdetails{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.Pdetails .image{
+  width: fit-content;
+}
+
+.Pdetails .image img{
+  height: 350px;
+  width: fit-content;
+  padding-left: 80px;
+}
+
+
+
+.content .Pname{
+  font-family: roboto;
+  font-weight: 600;
+  font-size: xx-large;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+.content .details{
+  font-size: 14px;
+  font-family: roboto;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+}
+
+.content .price{
+  margin: 0 0 15px 0;
+  color: #7db92e;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.content .button{
   display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
-
-.Pdetails .content{
-  margin-left: 10px;
+.content .button button{
+  background-color: #eee;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-family: Poppins;
 }
 
-.Pdetails .content .Pname{
-  
+.content .button svg{
+  width: 15px;
 }
+
+.content .button span{
+  width: 30px;
+  background-color: #555454;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 20px;
+  color: #eee;
+}
+
+.content .button button:nth-child(2){
+  background-color: #2f2f2f;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 20px #2f2f2f77;
+}
+
