@@ -22,14 +22,14 @@
     },
     {
         "id": 4,
-        "image": "./images/Headphone.png",
-        "name": "Bose Quitecomfort ultra soundproof bluetooth headphones",
+        "image": "./images/headphoneZeb.webp",
+        "name": "Zebronics Jet PRO Premium Wired Gaming On Ear Headphone",
         "price": "₹4000",
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
     },
     {
         "id": 5,
-        "image": "./images/laptop.jpg",
+        "image": "./images/lap1.jpg",
         "name": "Acer One 14 AMD Ryzen 3 3250U Processor",
         "price": "₹37,599",
         "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima\ndelectus nulla voluptates nesciunt quidem laudantium, quisquam\nvoluptas facilis dicta in explicabo, laboriosam ipsam suscipit!"
